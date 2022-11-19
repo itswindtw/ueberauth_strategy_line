@@ -1,0 +1,13 @@
+on: push
+name: "CI"
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: erlef/setup-beam@v1
+        with:
+          otp-version: "25.x"
+          elixir-version: "1.14.x"
+      - run: mix deps.get
+      - run: mix test --cover
