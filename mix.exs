@@ -22,7 +22,7 @@ defmodule Ueberauth.Strategy.Line.MixProject do
   defp deps do
     [
       {:ueberauth, "~> 0.7"},
-      {:finch, "~> 0.13.0"},
+      {:finch, "~> 0.15.0"},
       {:jason, "~> 1.4"},
       {:mox, "~> 1.0", only: :test}
     ]
