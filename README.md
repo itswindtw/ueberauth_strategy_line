@@ -1,5 +1,7 @@
 # Ueberauth.Strategy.Line
 
+**Deprecated. Consider using [assent](https://github.com/pow-auth/assent) instead, as it is well-supported and has a better story in using alternative HTTP libraries.**
+
 Ueberauth strategy for [Line Login](https://developers.line.biz/en/docs/line-login/).
 
 [![CI](https://github.com/itswindtw/ueberauth_strategy_line/actions/workflows/ci.yml/badge.svg)](https://github.com/itswindtw/ueberauth_strategy_line/actions/workflows/ci.yml)
